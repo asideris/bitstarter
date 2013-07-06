@@ -1,3 +1,3 @@
-node-js-sample
+bitstarter
 ==============
 This is just a test.
