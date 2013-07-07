@@ -1,3 +1,3 @@
 bitstarter
 ==============
-This is just a test.
+This is myfirst bitstarter.
