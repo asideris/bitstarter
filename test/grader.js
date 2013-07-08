@@ -88,6 +88,7 @@ if(require.main == module) {
     //console.log(program.url)
     var checkJson = checkHtmlFile(program.url, program.checks);
     var outJson = JSON.stringify(checkJson, null, 4);
+    fs.writeFileSync('HW3Part3JSONAnswer', outJson);
     console.log(outJson);
 } else {
     exports.checkHtmlFile = checkHtmlFile;
